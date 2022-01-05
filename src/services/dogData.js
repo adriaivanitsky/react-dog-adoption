@@ -5,6 +5,7 @@ export async function getDogs() {
   return checkError(request);
 }
 
-// export async function getDogById(id) {
-//   let requset = await client.from('dogs').select;
-// }
+export async function getDogById(id) {
+  let request = await client.from('dogs').select('*').eq('id', id).single();
+  return checkError(request);
+}

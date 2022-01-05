@@ -9,15 +9,14 @@ function App() {
       <div className="App">
         <header>
           <NavLink to="/">home</NavLink>
-          <NavLink to="/dogs">dogs</NavLink>
+          {/* <NavLink to="/dogs">dogs</NavLink> */}
         </header>
         <Switch>
-          <Route exact path="/" />;
-          <Route exact path="/dogs" component={Dogs} />;
-          <Route exact path="dogInfo" component={DogInfo} />;
+          {/* <h1>Its a Doggy Dog World</h1>
+          <p>find your fuzzy companion today!</p> */}
+          <Route exact path="/" component={Dogs} />;{/* <Route exact path="/dogs" />; */}
+          <Route exact path="/dogs/:id" component={DogInfo} />;
         </Switch>
-        <h1>Its a Doggy Dog World</h1>
-        <p>find your fuzzy companion today!</p>
       </div>
     </BrowserRouter>
   );
