@@ -2,6 +2,7 @@ import React from 'react';
 import { useEffect, useState } from 'react';
 import { getDogs } from '../services/dogData';
 import DogList from '../components/DogList';
+import Header from '../components/Header';
 
 export default function Dogs() {
   const [loading, setLoading] = useState(true);
@@ -16,5 +17,10 @@ export default function Dogs() {
     fetchData();
   }, []);
   if (loading) return <h1>Loading...</h1>;
-  return <DogList dogs={dogs} />;
+  return (
+    <>
+      <Header />
+      <DogList dogs={dogs} />
+    </>
+  );
 }

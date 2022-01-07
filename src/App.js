@@ -9,10 +9,6 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <header>
-          <NavLink to="/">home</NavLink>
-          {/* <NavLink to="/dogs">dogs</NavLink> */}
-        </header>
         <Switch>
           {/* <h1>Its a Doggy Dog World</h1>
           <p>find your fuzzy companion today!</p> */}
