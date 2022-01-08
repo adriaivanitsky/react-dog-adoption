@@ -11,6 +11,10 @@ export default function EditDog() {
   const [image, setImage] = useState('');
   const [breed, setBreed] = useState('');
 
+  //useEffect for preloading dogdata so the form can already be filled out
+  //almost identical to admin as far as save function but inside of save function call updateDog
+  //instead of createDog().
+
   return (
     <>
       <Header />

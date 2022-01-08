@@ -13,11 +13,15 @@ export default function Admin() {
   const [breed, setBreed] = useState('');
   const [success, setSuccess] = useState('');
 
-  async function save(e) {
-    e.preventDefault();
-    await createDog({ name, age, bio, image, breed });
-    setSuccess('dog successfully added');
-  }
+  const save = async (e) => {
+    try {
+      e.preventDefault();
+      await createDog({ name, age, bio, image, breed });
+      setSuccess('dog successfully added');
+    } catch {
+      setSuccess('sorry! something went wrong. please try again');
+    }
+  };
 
   return (
     <>
