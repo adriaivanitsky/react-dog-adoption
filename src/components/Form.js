@@ -12,9 +12,12 @@ export default function Form({
   setBio,
   setImage,
   setBreed,
+  save,
+  success,
 }) {
   return (
     <form>
+      <p>{success}</p>
       <label>
         name
         <input
@@ -54,7 +57,7 @@ export default function Form({
           onChange={(e) => setBreed(e.target.value)}
         ></input>
       </label>
-      <button>save</button>
+      <button onClick={save}>save</button>
     </form>
   );
 }

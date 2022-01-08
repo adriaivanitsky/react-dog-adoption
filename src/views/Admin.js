@@ -10,6 +10,12 @@ export default function Admin() {
   const [bio, setBio] = useState('');
   const [image, setImage] = useState('');
   const [breed, setBreed] = useState('');
+  const [success, setSuccess] = useState('');
+
+  function save(e) {
+    e.preventDefault();
+    setSuccess('dog successfully added');
+  }
 
   return (
     <>
@@ -28,6 +34,8 @@ export default function Admin() {
           setImage,
           breed,
           setBreed,
+          save,
+          success,
         }}
       />
     </>
