@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../components/Header';
 import Form from '../components/Form';
 import { useState } from 'react';
+import { createDog } from '../services/dogData';
 
 export default function Admin() {
   const [loading, setLoading] = useState(true);
@@ -12,8 +13,9 @@ export default function Admin() {
   const [breed, setBreed] = useState('');
   const [success, setSuccess] = useState('');
 
-  function save(e) {
+  async function save(e) {
     e.preventDefault();
+    await createDog({ name, age, bio, image, breed });
     setSuccess('dog successfully added');
   }
 
