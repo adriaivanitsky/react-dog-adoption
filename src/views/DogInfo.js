@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import { getDogById } from '../services/dogData';
 import DogDetail from '../components/DogDetail';
 import Header from '../components/Header';
+import { Link } from 'react-router-dom';
 
 export default function DogInfo(props) {
   const id = props.match.params.id;
@@ -22,6 +23,9 @@ export default function DogInfo(props) {
     <>
       <Header />
       <DogDetail {...dog} />
+      <Link to={`/dogs/:id/edit`}>
+        <button>edit</button>
+      </Link>
     </>
   );
 }
