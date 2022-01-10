@@ -3,11 +3,9 @@ export default function DogDetail({ name, image, breed, bio }) {
     <>
       <h1>{name}</h1>
       <div>
-        <p>
-          <img src={image} />
-          <p>{bio}</p>
-          <p>{breed}</p>
-        </p>
+        <img src={image} />
+        <p>{bio}</p>
+        <p>{breed}</p>
       </div>
     </>
   );

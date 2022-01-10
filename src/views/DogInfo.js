@@ -36,7 +36,7 @@ export default function DogInfo(props) {
     <>
       <Header />
       <DogDetail {...dog} />
-      <Link to={`/dogs/:id/edit`}>
+      <Link to={`/dogs/${dog.id}/edit`}>
         <button>edit</button>
       </Link>
       <button onClick={handleDelete}>delete</button>

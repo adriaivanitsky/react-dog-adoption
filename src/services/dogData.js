@@ -19,3 +19,8 @@ export async function deleteDog(id) {
   let request = await client.from('dogs').delete().eq('id', id);
   return checkError(request);
 }
+
+export async function updateDog({ id, name, age, bio, image, breed }) {
+  let request = await client.from('dogs').update({ name, age, bio, image, breed }).eq('id', id);
+  return checkError(request);
+}
