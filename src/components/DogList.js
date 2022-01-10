@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import './doglist.css';
 
 export default function DogList({ dogs }) {
   return (

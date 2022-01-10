@@ -14,3 +14,8 @@ export async function createDog({ name, age, bio, image, breed }) {
   let request = await client.from('dogs').insert({ name, age, bio, image, breed });
   return checkError(request);
 }
+
+export async function deleteDog(id) {
+  let request = await client.from('dogs').delete().eq('id', id);
+  return checkError(request);
+}
