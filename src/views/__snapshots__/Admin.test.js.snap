@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`admin should render a button 1`] = `
+<div>
+  <header>
+    <a
+      aria-current="page"
+      class="active"
+      href="/"
+    >
+      home 
+    </a>
+    <a
+      href="/admin"
+    >
+       admin
+    </a>
+  </header>
+  <form>
+    <p />
+    <label>
+      name
+      <input
+        placeholder="name here"
+        type="text"
+        value=""
+      />
+    </label>
+    <label>
+      age
+      <input
+        placeholder="age"
+        type="number"
+        value=""
+      />
+    </label>
+    <label>
+      bio
+      <input
+        placeholder="bio"
+        type="text"
+        value=""
+      />
+    </label>
+    <label>
+      image
+      <input
+        type="text"
+        value=""
+      />
+    </label>
+    <label>
+      breed
+      <input
+        placeholder="breed"
+        type="text"
+        value=""
+      />
+    </label>
+    <button>
+      save
+    </button>
+  </form>
+</div>
+`;

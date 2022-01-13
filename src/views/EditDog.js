@@ -14,9 +14,6 @@ export default function EditDog(props) {
   const [breed, setBreed] = useState('');
   const [success, setSuccess] = useState('');
   const id = props.match.params.id;
-  //useEffect for preloading dogdata so the form can already be filled out
-  //almost identical to admin as far as save function but inside of save function call updateDog
-  //instead of createDog().
 
   useEffect(() => {
     const fetchData = async () => {
