@@ -11,3 +11,7 @@ test('editdog should render dog information to a form', async () => {
   await screen.findByDisplayValue('pumpkin');
   expect(container).toMatchSnapshot();
 });
+
+//async functions use findBy NOT getBy. findBy accesses supabase.
+//getBy gets used whenever theres information on the page that will load automatically
+//getBy does NOT access supabase.

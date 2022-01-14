@@ -1,0 +1,172 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render a player to the page 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <header>
+        <a
+          aria-current="page"
+          class="active"
+          href="/"
+        >
+          home 
+        </a>
+        <a
+          href="/admin"
+        >
+           admin
+        </a>
+      </header>
+      <h1>
+        dogs
+      </h1>
+      <div>
+        <a
+          href="/dogs/2"
+        >
+          gertie
+        </a>
+        <a
+          href="/dogs/3"
+        >
+          blue
+        </a>
+        <a
+          href="/dogs/5"
+        >
+          pumpkin
+        </a>
+        <a
+          href="/dogs/6"
+        >
+          shelby
+        </a>
+        <a
+          href="/dogs/1"
+        >
+          sadie
+        </a>
+        <a
+          href="/dogs/4"
+        >
+          pablo
+        </a>
+        <a
+          href="/dogs/12"
+        >
+          Cat
+        </a>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <header>
+      <a
+        aria-current="page"
+        class="active"
+        href="/"
+      >
+        home 
+      </a>
+      <a
+        href="/admin"
+      >
+         admin
+      </a>
+    </header>
+    <h1>
+      dogs
+    </h1>
+    <div>
+      <a
+        href="/dogs/2"
+      >
+        gertie
+      </a>
+      <a
+        href="/dogs/3"
+      >
+        blue
+      </a>
+      <a
+        href="/dogs/5"
+      >
+        pumpkin
+      </a>
+      <a
+        href="/dogs/6"
+      >
+        shelby
+      </a>
+      <a
+        href="/dogs/1"
+      >
+        sadie
+      </a>
+      <a
+        href="/dogs/4"
+      >
+        pablo
+      </a>
+      <a
+        href="/dogs/12"
+      >
+        Cat
+      </a>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
