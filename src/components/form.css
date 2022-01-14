@@ -1,0 +1,17 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+}
+
+button {
+  border: 1px solid gray;
+  width: 40px;
+}
+
+label > input {
+  margin: 10px;
+}

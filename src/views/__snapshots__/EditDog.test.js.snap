@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`editdog should render dog information to a form 1`] = `
+<div>
+  <header>
+    <a
+      aria-current="page"
+      class="active"
+      href="/"
+    >
+      home 
+    </a>
+    <a
+      href="/admin"
+    >
+       admin
+    </a>
+  </header>
+  <form>
+    <p />
+    <label>
+      name
+      <input
+        placeholder="name here"
+        type="text"
+        value="pumpkin"
+      />
+    </label>
+    <label>
+      age
+      <input
+        placeholder="age"
+        type="number"
+        value="6"
+      />
+    </label>
+    <label>
+      bio
+      <input
+        placeholder="bio"
+        type="text"
+        value="fun loving pup who loves long walks and needs lots of attention "
+      />
+    </label>
+    <label>
+      image
+      <input
+        type="text"
+        value="https://thedogman.net/wp-content/uploads/2020/09/Australian-Shepherd-3.jpg?x47951"
+      />
+    </label>
+    <label>
+      breed
+      <input
+        placeholder="breed"
+        type="text"
+        value="australian shepherd "
+      />
+    </label>
+    <button>
+      save
+    </button>
+  </form>
+</div>
+`;
