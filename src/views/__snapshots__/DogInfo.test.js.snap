@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should render a list of dogs 1`] = `
+exports[`should render a dog and its stats to the page 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
@@ -20,45 +20,29 @@ Object {
         </a>
       </header>
       <h1>
-        dogs
+        gertie
       </h1>
       <div>
-        <a
-          href="/dogs/2"
-        >
-          gertie
-        </a>
-        <a
-          href="/dogs/3"
-        >
-          blue
-        </a>
-        <a
-          href="/dogs/5"
-        >
-          pumpkin
-        </a>
-        <a
-          href="/dogs/6"
-        >
-          shelby
-        </a>
-        <a
-          href="/dogs/1"
-        >
-          sadie
-        </a>
-        <a
-          href="/dogs/4"
-        >
-          pablo
-        </a>
-        <a
-          href="/dogs/12"
-        >
-          Cat
-        </a>
+        <img
+          src="https://3.bp.blogspot.com/_vB43sFWYD_E/TU9kGWQZv6I/AAAAAAAADtk/otXtGuOyRx4/s1600/Boston_Terrier_IMG_3283blog.jpg"
+        />
+        <p>
+          the best girl in the whole world 
+        </p>
+        <p>
+          boston terrier
+        </p>
       </div>
+      <a
+        href="/dogs/2/edit"
+      >
+        <button>
+          edit
+        </button>
+      </a>
+      <button>
+        delete
+      </button>
     </div>
   </body>,
   "container": <div>
@@ -77,45 +61,29 @@ Object {
       </a>
     </header>
     <h1>
-      dogs
+      gertie
     </h1>
     <div>
-      <a
-        href="/dogs/2"
-      >
-        gertie
-      </a>
-      <a
-        href="/dogs/3"
-      >
-        blue
-      </a>
-      <a
-        href="/dogs/5"
-      >
-        pumpkin
-      </a>
-      <a
-        href="/dogs/6"
-      >
-        shelby
-      </a>
-      <a
-        href="/dogs/1"
-      >
-        sadie
-      </a>
-      <a
-        href="/dogs/4"
-      >
-        pablo
-      </a>
-      <a
-        href="/dogs/12"
-      >
-        Cat
-      </a>
+      <img
+        src="https://3.bp.blogspot.com/_vB43sFWYD_E/TU9kGWQZv6I/AAAAAAAADtk/otXtGuOyRx4/s1600/Boston_Terrier_IMG_3283blog.jpg"
+      />
+      <p>
+        the best girl in the whole world 
+      </p>
+      <p>
+        boston terrier
+      </p>
     </div>
+    <a
+      href="/dogs/2/edit"
+    >
+      <button>
+        edit
+      </button>
+    </a>
+    <button>
+      delete
+    </button>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
